@@ -59,3 +59,25 @@ Coffee? Food delivery? Subscriptions you forgot about?
 
 After deploying with Firebase Hosting, the app is accessible publicly via:
 
+https://proj-forage.web.app/
+
+---
+
+## 📌 Future Improvements
+
+- User authentication (multi-user support)
+- Push notifications for bill reminders
+- Budget planning & alerts
+- Export monthly reports (PDF / CSV)
+- Mobile app version
+
+---
+
+## 👨‍💻 Author
+
+**Shishir Shukla**  
+Electronics & IoT Enthusiast | Web & Automation Projects  
+
+--xx--
+
+
