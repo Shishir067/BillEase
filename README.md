@@ -1,4 +1,4 @@
-# 💸 Expense Companion – Smart Financial Awareness Web App
+# Expense Companion – Smart Financial Awareness Web App
 
 Month-end arrives. You check your bank balance and panic — *where did all the money go?*  
 Coffee? Food delivery? Subscriptions you forgot about?
@@ -7,7 +7,7 @@ Coffee? Food delivery? Subscriptions you forgot about?
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### 🧾 Expense Management
 - Add daily expenses with amount, category, note, and date
@@ -21,12 +21,12 @@ Coffee? Food delivery? Subscriptions you forgot about?
 - Average daily spending
 - Highest expense of the month
 
-### ⏰ Bill Reminders
+###  Bill Reminders
 - Add bills with due dates (rent, electricity, subscriptions, etc.)
 - View upcoming bill reminders
 - Prevent missed payments
 
-### 🎨 Clean & Modern UI
+###  Clean & Modern UI
 - Expanded layout for better readability
 - Calm, warm, and professional color palette
 - Responsive design for desktop and mobile
@@ -42,7 +42,7 @@ Coffee? Food delivery? Subscriptions you forgot about?
 
 ---
 
-## 🔥 How It Works
+##  How It Works
 
 1. User adds expenses and bills via the web interface
 2. Data is stored live in Firebase Firestore
@@ -55,7 +55,7 @@ Coffee? Food delivery? Subscriptions you forgot about?
 
 ---
 
-## 🌍 Live Deployment
+##  Live Deployment
 
 After deploying with Firebase Hosting, the app is accessible publicly via:
 
@@ -63,7 +63,7 @@ https://proj-forage.web.app/
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - User authentication (multi-user support)
 - Push notifications for bill reminders
@@ -73,7 +73,7 @@ https://proj-forage.web.app/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Shishir Shukla**  
 Electronics & IoT Enthusiast | Web & Automation Projects  
