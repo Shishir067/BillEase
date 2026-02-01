@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BillEase - My Expense Companion</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+</head>
+
+<body>
+
+  <h1> BillEase </h1>
+  <p class="tagline">Track every rupee. Know where your money goes.</p>
+
+  <!-- Monthly Total -->
+  <div class="card highlight">
+    <h2>This Month's Spending</h2>
+  <p id="monthlyTotal" style="display:none;">₹0</p>
+    <button id="toggleTotalBtn" onclick="toggleTotal()">
+     Show Total Spending
+    </button>
+
+  </div>
+
+  <!-- Add Expense -->
+  <div class="card">
+    <h2>Add Expense</h2>
+
+    <input type="date" id="expenseDate" />
+
+    <input type="number" id="amount" placeholder="Amount (₹)">
+    
+    <select id="category">
+      <option value="Food">Food</option>
+      <option value="Coffee">Coffee</option>
+      <option value="Rent">Rent</option>
+      <option value="Electricity">Electricity</option>
+      <option value="Transport">Transport</option>
+      <option value="Shopping">Shopping</option>
+    </select>
+
+    <input type="text" id="note" placeholder="Optional note">
+
+    <button onclick="addExpense()">Add Expense</button>
+  </div>
+
+  <div class="card">
+  <h2>Add a Bill</h2>
+  <input type="text" id="billName" placeholder="Bill Name / Category">
+  <input type="number" id="billAmount" placeholder="Amount">
+  <input type="date" id="billDueDate">
+  <input type="text" id="billNote" placeholder="Note (optional)">
+  <button onclick="addBill()">Add Bill</button>
+</div>
+
+<div class="card">
+  <h2>Upcoming Bill Reminders</h2>
+  <ul id="billReminders"></ul>
+</div>
+
+
+  <!-- Category Summary -->
+  <div class="card">
+    <h2>Category Summary</h2>
+    <ul id="categorySummary"></ul>
+  </div>
+
+  <!-- Expense List -->
+  <div class="card">
+    <h2>All Expenses</h2>
+    <ul id="expenseList"></ul>
+  </div>
+
+<div class="card">
+  <h2>Monthly Analysis</h2>
+  <p id="monthlyTotalReport">Total Spending: ₹0</p>
+  <p id="avgDaily">Average Daily Spending: ₹0</p>
+  <p id="highestExpense">Highest Expense: ₹0</p>
+</div>
+
+
+  <div class="card">
+  <h2>Category Breakdown</h2>
+  <canvas id="categoryChart" width="400" height="400"></canvas>
+</div>
+
+<div class="card">
+  <h2>Edit Expenses by Date</h2>
+  <input type="date" id="filterDate" />
+  <button onclick="filterByDate()">Show Expenses</button>
+  <ul id="editExpenseList"></ul>
+</div>
+
+
+<button id="clearBtn" onclick="clearAllExpenses()">Clear All Expenses</button>
+
+
+
+<!-- Add Chart.js CDN before script.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
