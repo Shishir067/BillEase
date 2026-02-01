@@ -1,4 +1,4 @@
-# Expense Companion – Smart Financial Awareness Web App
+# BillEase - My Expense Companion
 
 Month-end arrives. You check your bank balance and panic — *where did all the money go?*  
 Coffee? Food delivery? Subscriptions you forgot about?
