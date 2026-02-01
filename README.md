@@ -9,13 +9,13 @@ Coffee? Food delivery? Subscriptions you forgot about?
 
 ##  Features
 
-### 🧾 Expense Management
+###  Expense Management
 - Add daily expenses with amount, category, note, and date
 - View all expenses in real-time
 - Edit expenses by date
 - Clear all expense records when needed
 
-### 📊 Smart Analytics
+###  Smart Analytics
 - Monthly total spending (toggle visibility)
 - Category-wise expense breakdown (Pie Chart)
 - Average daily spending
@@ -33,7 +33,7 @@ Coffee? Food delivery? Subscriptions you forgot about?
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Database:** Firebase Firestore (real-time)
