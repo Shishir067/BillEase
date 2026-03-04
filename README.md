@@ -73,10 +73,7 @@ https://proj-forage.web.app/
 
 ---
 
-##  Author
-
-**Shishir Shukla**  
-Electronics & IoT Enthusiast | Web & Automation Projects  
+  
 
 --xx--
 
